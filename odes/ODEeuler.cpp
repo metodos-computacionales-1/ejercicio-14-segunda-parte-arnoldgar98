@@ -38,11 +38,7 @@ double euler(string archivo)
         t[i]=i;
         
     }
-    for(int i=0;i<puntos;i++)
-    {
-        outfile1<<t[i]<<" "<<v[i]<<" "<<x[i]<<endl;
-    }  
-    outfile1.close();
+    
     
 }
 int main(void)
